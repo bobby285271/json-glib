@@ -13,3 +13,6 @@ option('tests',
 option('nls',
        type: 'feature', value: 'auto', yield: true,
        description: 'Enable native language support (translations)')
+option('installed_test_prefix',
+       description: 'Prefix for installed tests',
+       type: 'string')
